@@ -10,7 +10,7 @@ application = Flask(__name__)
 # FILL THESE IN WITH YOUR INFO
 my_bot_name = 'zeyang' #e.g. zac_bot
 my_slack_username = 'zlin15' #e.g. zac.wentzell
-slack_inbound_url = 'https://hooks.slack.com/services/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'
+slack_inbound_url = 'https://hooks.slack.com/services/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'
 
 # this handles POST requests sent to your server at SERVERIP:41953/slack
 # Send the text content of your enter in Slack to the server using Outgoing Webhook.
