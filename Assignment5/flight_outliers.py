@@ -94,11 +94,8 @@ def scrape_data(start_date, from_place, to_place, city_name):
                  })
             return scrape_data_date_price
 
-
-# X=scrape_data('2017-04-20','Beijing','South America','Bogota')
-X = scrape_data('2017-04-20', 'New York', 'united states', 'Chicago')
-# X=scrape_data('2017-05-15','Beijing','South Korea','Seoul')
-# scrape_data('2017-06-01','Beijing','South Africa','Johannesburg')
+# Task 1 Test:
+X = scrape_data_90('2017-05-10', 'New York', 'united states', 'Chicago')
 print X
 
 # ============= Task2 ==============
@@ -107,7 +104,7 @@ driver.get('https://www.google.com/flights/explore/')
 time.sleep(0.5)
 
 
-def scrape_data(start_date, from_place, to_place, city_name):
+def scrape_data_90(start_date, from_place, to_place, city_name):
     # from_place
     to_input = driver.find_elements_by_class_name('LJTSM3-p-a')[0]
     to_input.click()
@@ -213,11 +210,8 @@ def scrape_data(start_date, from_place, to_place, city_name):
                  })
             return scrape_data_date_price
 
-
-# scrape_data('2017-04-20','Beijing','South America','Bogota')
-X = scrape_data('2017-04-20', 'New York', 'China', 'Chengdu')
-# X=scrape_data('2017-05-15','Beijing','South Korea','Seoul')
-# scrape_data('2017-06-01','Beijing','South Africa','Johannesburg')
+#Task2 Test:
+X = scrape_data_90('2017-05-10', 'New York', 'united states', 'Chicago')
 print X
 
 
