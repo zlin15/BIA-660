@@ -95,7 +95,7 @@ def scrape_data(start_date, from_place, to_place, city_name):
             return scrape_data_date_price
 
 # Task 1 Test:
-X = scrape_data_90('2017-05-10', 'New York', 'united states', 'Chicago')
+X = scrape_data('2017-05-10', 'New York', 'united states', 'Chicago')
 print X
 
 # ============= Task2 ==============
